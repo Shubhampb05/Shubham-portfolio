@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-color: black;
+    line-height: 1.6;
+  }
+
+  .navbar {
+    background-color: #007BFF;
+    padding: 15px 0;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+  }
+  
+  .nav-menu li {
+    margin: 0 20px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-menu a:hover {
+    color: limegreen;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .intro {
+    text-align: center;
+    
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #007BFF;
+  }
+  
+  .interest-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .intro  p {
+
+    color: #007BFF;
+
+  }
+  
+  .interest-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .interest-card:hover {
+    transform: scale(1.05);
+  }
+  
+  button.more-info-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button.more-info-btn:hover {
+    background-color: limegreen;
+  }
+
+  .modal {
+    display: none;
+   \
+
+  }
+  
+  
+  .modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+    animation: fadeIn 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .modal-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+  
+  .modal-content h3 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #007BFF;
+  }
+  
+  .modal-content p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .close-btn {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  
